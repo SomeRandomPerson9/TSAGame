@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TSAGame.iml" filepath="$PROJECT_DIR$/.idea/TSAGame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Windows/Windows.iml" filepath="$PROJECT_DIR$/Windows/Windows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TSAGame2.iml" filepath="$PROJECT_DIR$/TSAGame2.iml" />
     </modules>
   </component>
 </project>
