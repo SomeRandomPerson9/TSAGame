@@ -19,15 +19,18 @@ public class ObjectBase {
     public ObjectBase(){
         vertices = new int[8];
     }
-    public void calculateVertices(){
-        vertices[0] = 0;
-        vertices[1] = 0;
-        vertices[2] = 0;
-        vertices[3] = height;
-        vertices[4] = width;
-        vertices[5] = height;
-        vertices[6] = width;
-        vertices[7] = 0;
+    public int[] calculateVertices(){
+        if(vertices == null) {
+            vertices[0] = 0;
+            vertices[1] = 0;
+            vertices[2] = 0;
+            vertices[3] = height;
+            vertices[4] = width;
+            vertices[5] = height;
+            vertices[6] = width;
+            vertices[7] = 0;
+        }
+        return vertices;
     }
 
 }
