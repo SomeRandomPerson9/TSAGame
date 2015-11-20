@@ -84,12 +84,12 @@ public class Game {
     }
 
     private void init(){
-        window.create(Resources.WINDOW_WIDTH, Resources.WINDOW_HEIGHT);
+        window.create(Resources.global.WINDOW_WIDTH, Resources.global.WINDOW_HEIGHT);
         sceneHandler.addScene(ScenesList.mainMenu, 0);
         sceneHandler.init();
         sceneHandler.changeScene(0);
     }
-    private void close(){
+    public void close(){
         window.close();
         gameRunning = false;
     }

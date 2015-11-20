@@ -1,5 +1,7 @@
 package com.tsa.tsagame.object;
 
+import org.newdawn.slick.opengl.Texture;
+
 public class ObjectBase {
     //Global
     public ObjectType type;
@@ -9,12 +11,13 @@ public class ObjectBase {
     public int xrot;
     public int yrot;
     public int zrot;
-    public int textureLoc;
+    public int[] color = new int[3];
 
     //For 2D
     public int[] vertices;
     public int height;
     public int width;
+    public Texture texture;
 
     public ObjectBase(){
         vertices = new int[8];
